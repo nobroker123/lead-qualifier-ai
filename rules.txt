@@ -1,0 +1,12 @@
+Rule 1 – Basic Qualification
+1. If the new lead name is very similar to an existing record, mark as 'DUPLICATE'.
+2. If the society name is the same but the 'Bldg No' or address detail is different, mark as 'RELATED'.
+3. If no similar names exist, mark as 'NEW'.
+
+Rule 2 – Lead Hierarchy Priority
+Lead mapping should follow the below priority order:
+1. Sales Hierarchy Leads (Highest Priority)
+2. Agent Hierarchy Leads (Secondary Priority)
+
+Rule 3 – Latest Updated Leads Preference
+When multiple eligible leads are available, preference should be given to the most recently updated lead by applying the latest lead update date/time condition.
